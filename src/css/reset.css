@@ -17,6 +17,7 @@
 body {
   font-family: 'Manrope', sans-serif;
   background-color: var(--clr-charl-green);
+  color: var(--clr-white);
 }
 
 ul,
