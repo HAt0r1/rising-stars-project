@@ -1,35 +1,38 @@
-/* Reset styles */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
+/* Basic Presets to our project */
+
+:root {
+  --clr-white: #fcf9f9;
+  --clr-yellow: #ecd979;
+  --clr-charl-green: #1c2225;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: var(--clr-charl-green);
+}
+
+ul,
+ol {
   list-style: none;
 }
 
 a {
-  color: currentColor;
   text-decoration: none;
-}
-
-button {
-  cursor: pointer;
 }
 
 img {
   display: block;
   max-width: 100%;
-  height: auto;
+}
+
+button {
+  cursor: pointer;
 }
