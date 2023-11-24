@@ -1,3 +1,17 @@
 .paragraph {
     color: aliceblue;
 }
+
+
+
+.page-about {
+    background-repeat: no-repeat;
+    background-position: right;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../img/about-img/elements-mobile.png);
+    /* background-size: cover; */
+}
