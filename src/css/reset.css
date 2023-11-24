@@ -41,7 +41,7 @@ button {
 /* Container for Mobile Device */
 
 .container {
-  max-width: 320px;
+  max-width: 375px;
   padding: 0 20px;
   margin: 0 auto;
 }
