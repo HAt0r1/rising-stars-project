@@ -96,7 +96,10 @@
         padding-left: 100px;
         padding-right: 100px;
     }
-    
+        .page-about {
+            padding: 75px 0;
+            background-position: calc(100% + 160px) 100%;
+    }
         .about-img {
             aspect-ratio: 594/545;
             margin-top: 40px;
@@ -104,6 +107,8 @@
         .container-about-list {
             display: flex;
             flex-direction: row;
+            align-items: center;
+            column-gap: 50px;
         }
 }
 /* ========== /ABOUT DESKTOP STYLES ========= */
