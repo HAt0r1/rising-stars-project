@@ -27,6 +27,7 @@ ol {
 
 a {
   text-decoration: none;
+  color: currentColor;
 }
 
 img {
@@ -41,7 +42,7 @@ button {
 /* Container for Mobile Device */
 
 .container {
-  max-width: 375px;
+  width: 320px;
   padding: 0 20px;
   margin: 0 auto;
 }
