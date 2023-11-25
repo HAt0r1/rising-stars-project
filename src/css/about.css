@@ -1,17 +1,109 @@
-.paragraph {
-    color: aliceblue;
-}
-
-
+/* ========== ABOUT MOBILE STYLES ========= */
 
 .page-about {
-    background-repeat: no-repeat;
-    background-position: right;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)),
-        url(../img/about-img/elements-mobile.png);
-    /* background-size: cover; */
+  padding: 40px 0;
+  background-repeat: no-repeat;
+  background-position: calc(100% + 209px) 100%;
+  background-image: url(../img/about-img/elements-mobile.png);
+  background-size: 459px 408px;
 }
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px),
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .page-about {
+    background-image: url(../img/about-img/elements-mobile@2x.png);
+  }
+}
+.title-about {
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.375;
+  letter-spacing: -0.03em;
+}
+
+.paragraph-about {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+}
+.paragraph-first {
+  margin-bottom: 20px;
+}
+.about-img {
+  aspect-ratio: 335/499;
+  margin-top: 50px;
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  background: url(<path-to-image>),
+    lightgray -100.708px -21.583px / 148.246% 132.699% no-repeat;
+}
+/* ========== /ABOUT MOBILE STYLES ========= */
+
+/* ========== ABOUT TABLET STYLES ========= */
+
+@media screen and (min-width: 768px) {
+  .container-about {
+    max-width: 768px;
+  }
+  .page-about {
+    padding: 50px 0;
+    background-image: url(../img/about-img/elements-tablet.png);
+    background-size: 545px 484px;
+    background-position: calc(100% + 176px) 100%;
+  }
+
+  @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .page-about {
+      background-image: url(../img/about-img/elements-tablet@2x.png);
+    }
+  }
+  .about-img {
+    aspect-ratio: 704/545;
+    margin-top: 40px;
+  }
+  .title-about {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.45;
+    letter-spacing: -0.03em;
+  }
+  .paragraph-about {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+  }
+}
+/* ========== /ABOUT TABLET STYLES ========= */
+
+/* ========== ABOUT DESKTOP STYLES ========= */
+@media screen and (min-width: 1280px) {
+.container-about {
+        max-width: 1280px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+        .about-img {
+            aspect-ratio: 594/545;
+            margin-top: 40px;
+        }
+        .container-about-list {
+            display: flex;
+            flex-direction: row;
+        }
+}
+/* ========== /ABOUT DESKTOP STYLES ========= */
