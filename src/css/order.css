@@ -1,0 +1,22 @@
+/* ==========ORDER MOBYLE STYLES======== */
+
+@media screen and (max-width: 767px){
+.order-image {
+    display: none;
+}
+.background-wrapper {
+    height: 550px;
+    background-image: url(../img/order-img/image-mobile.jpg);
+    background-repeat: no-repeat;
+    block-size: cover;
+    
+}    
+}
+
+ @media screen and (min-resolution: 192dpi) and (max-width: 767px),
+        screen and (min-resolution: 2dppx) and (max-width: 767px),
+        screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+       .background-wrapper  {
+            background-image: url(../img/order-img/image-mobile@2x.jpg);
+            }
+               }
