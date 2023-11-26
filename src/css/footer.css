@@ -1,48 +1,40 @@
 
-.footer {
-    height: 649px;
+.page-footer {
     padding-top: 40px;
+}
+
+.footer-container {
+    border-top: 1px solid rgba(252, 249, 249, 0.1);
+    padding-top: 40px;
+    padding-bottom: 292px;
     background-image: url(../img/footer-img/elements-yl-mobile.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: bottom;
+    background-position: bottom;
+        
 }
 
 @media screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx),
 screen and (min-device-pixel-ration: 2) {
-   .footer {
+   .footer-container {
     background-image: url(../img/footer-img/elements-yl-mobile@2x.png);
    } 
 }
 
-.footer::before {
-    display: block;
-    content: '';
-    width: 100%;
-    height: 1px;
-    background-color: rgba(252, 249, 249, 0.10);
-}
 
 .footer-menu {
-    margin-top: 40px;
-    margin-right: 55px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 25px 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 124px);
+    column-gap: 40px;
+    row-gap: 25px;
+    margin-bottom: 40px;
 }
 
-.footer-menu-item {
+.menu-link {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.3;
     text-transform: uppercase;
-    width: calc((100% - 40px) / 2);
-    text-wrap: nowrap;
-}
-
-.menu-link {
     color: #FCF9F9;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
@@ -53,9 +45,6 @@ screen and (min-device-pixel-ration: 2) {
 }
 
 .footer-text {
-    margin-top: 40px;
-    max-width: 335px;
-    height: 213px;
     font-size: 44px;
     font-weight: 400;
     line-height: 1.2;
@@ -68,62 +57,76 @@ screen and (min-device-pixel-ration: 2) {
 
 @media screen and (min-width: 375px) {
     .container {
-        max-width: none;
-        width: 375px;
+        max-width: 375px;
     }
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .container {
-        width: 704px;
-        padding-left: 32px;
-        padding-right: 32px;
+        max-width: 768px;
+        padding: 0 32px;
     }
 
-    .footer {
-        height: 370px;
-        background-size: 370px 174px;
-        background-position: center right;
+    .page-footer {
+        padding-top: 50px;
+    }
+
+    .footer-container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-image: url(../img/footer-img/elements-yl-laptop.png);
+        background-repeat: no-repeat;
+        background-position: top right -140px;
     }
 
     .footer-menu {
-        display: inline-flex;
-        flex-wrap: nowrap;
-        text-align: left;
-        gap: 0 25px;
+        display: flex;
+        align-items: center;
+        gap: 25px;
+        margin-bottom: 80px;
     }
 
-    .footer-menu-item {
-        width: auto;
-    }
 
     .footer-text{
-        margin-top: 80px;
-        margin-bottom: 40px;
+        max-width: 521px;
+        font-size: 54px;
         max-width: 480px;
-        text-wrap: wrap;
+        max-width: 521px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .container {
-        width: 1080px;
+        max-width: 1280px;
         padding-left: 100px;
         padding-right: 100px;
     }
 
-    .footer {
-        height: 363px;
+    .page-footer {
+        padding-top: 75px;
+    }
+
+    .footer-container {
         background-image: url(../img/footer-img/elements-yl-laptop.png);
-        background-size: 335px 363px;
-        background-position: top 40px right 0;
+        background-position: top right;
+    }
+
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ration: 2) {
+        .footer-container {
+            background-image: url(../img/footer-img/elements-yl-laptop@2x.png)
+        }
+    }
+
+    .footer-social-list {
+        margin-bottom: 117px;
     }
 
     .footer-text{
-        margin-top: 117px;
+        font-size: 64px;
+        line-height: 1.15;
         max-width: 754px;
-        /* text-wrap: wrap; */
     }
 
 }
-
