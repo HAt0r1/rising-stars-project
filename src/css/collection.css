@@ -2,7 +2,7 @@
   padding-top: 40px;
   padding-bottom: 40px;
   background-image: url(../img/collection-img/elements-y-mobile.png),
-  url(../img/collection-img/elements-y-mobile@2x.png) ;
+  url(../img/collection-img/elements-y-mobile@2x.png);
   background-repeat: no-repeat;
   background-size: 100px;
   background-position: left 275px;
@@ -68,7 +68,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
     background-image: url(../img/collection-img/elements-y-tablet.png),
-    url(../img/collection-img/elements-y-tablet@2x.png);
+    url(../img/collection-img/elements-y-tablet@2x.png) ;
   }
 
   .collection-title {
@@ -105,7 +105,7 @@
     padding-top: 75px;
     padding-bottom: 75px;
     background-image: url(../img/collection-img/elements-y-tablet.png),
-    url(../img/collection-img/elements-y-tablet@2x.png);
+    url(../img/collection-img/elements-y-tablet@2x.png) ;
     background-repeat: no-repeat;
     background-size: 130px;
     background-position: left 250px;
