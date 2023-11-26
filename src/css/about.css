@@ -92,23 +92,23 @@
 
 /* ========== ABOUT DESKTOP STYLES ========= */
 @media screen and (min-width: 1280px) {
-.container {
-        max-width: 1280px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-        .page-about {
-            padding: 75px 0;
-            background-position: calc(100% + 160px) 100%;
-    }
-        .about-img {
-            aspect-ratio: 594/545;
-            margin-top: 0;
-        }
-        .container-about-list {
-            display: flex;
-            align-items: center;
-            column-gap: 50px;
-        }
+  .container {
+    max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .page-about {
+    padding: 75px 0;
+    background-position: calc(100% + 160px) 100%;
+  }
+  .about-img {
+    aspect-ratio: 594/545;
+    margin-top: 0;
+  }
+  .container-about-list {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+  }
 }
 /* ========== /ABOUT DESKTOP STYLES ========= */
