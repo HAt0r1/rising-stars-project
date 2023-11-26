@@ -20,6 +20,7 @@
   screen and (min-device-pixel-ratio: 2) {
   .mob-menu {
     background-image: url(../img/menu-img/menu-mobile@2x.png);
+    background-size: 340px 302px;
   }
 }
 .mob-menu-close-btn {
@@ -77,6 +78,7 @@
     screen and (min-device-pixel-ratio: 2) {
     .mob-menu {
       background-image: url(../img/menu-img/menu-tablet@2x.png);
+      background-size: 545px 484px;
     }
   }
   .mob-menu {
