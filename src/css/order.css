@@ -1,4 +1,4 @@
-..order {
+.order {
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -182,6 +182,7 @@ padding: 14px 39px;
             }
             .order {
          background-image: url(../img/order-img/elements-tablet@2x.png);
+         background-size: 484px 545px;
     
 }
         }
@@ -237,6 +238,7 @@ padding: 14px 39px;
             }
             .order {
          background-image: url(../img/order-img/elements-tablet@2x.png);
+         background-size: 484px 545px;
     
         }
     }
