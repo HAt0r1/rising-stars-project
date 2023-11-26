@@ -21,7 +21,7 @@
     
     <title>Vyshyvanka Vibes</title>
     <script type="module" crossorigin src="/rising-stars-project/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/rising-stars-project/assets/index-8a6b910f.css">
+    <link rel="stylesheet" href="/rising-stars-project/assets/index-a94e9545.css">
   </head>
   <body>
     <!-- Header -->
@@ -134,7 +134,56 @@
       <!-- Our Collection Section -->
       
       <!-- Our Orders Section -->
-      
+      <section class="order" id="order">
+    <div class="background-wrapper"></div>
+    <div class="container order-section-wrapper">
+        <div class="all-order">
+            <h2 class="order-title"><span class="text-order">Your order</span> is our priority: Personalized approach and quality of service</h2>
+        <form class="order-form">
+            <div class="order-form-wrapper">
+                <label class="order-form-label" for="user-name">
+                    <input 
+                    class="order-field" 
+                    type="text"
+                    placeholder="Enter your full name"
+                    name="user-name"
+                    id="user-name"
+                    required
+                    pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐйЙʼ]+">
+                </label>
+                <label class="order-form-label" for="user-email">
+                    <input 
+                    class="order-field" 
+                    type="email"
+                    placeholder="Enter your email"
+                    name="user-email"
+                    id="user-email"
+                    required
+                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
+                </label>
+                <label class="order-form-label" for="user-comments">
+                    <textarea class="comments-field" name="user-comments" id="user-comments"
+                    placeholder="Comments" ></textarea>
+                </label>
+            </div>
+            <button class="order-button" type="submit">
+                send 
+                <svg class="button-arrow" width="26" height="16">
+                    <use href="/rising-stars-project/assets/sprite-0c86bc20.svg#icon-arrow"></use>
+                </svg>
+            </button>
+        </form>
+        </div>
+        <div >
+            <img class="order-image"
+            srcset="/rising-stars-project/assets/order-tablet-c29317fc.jpg 638w, /rising-stars-project/assets/order-tablet@2x-d179cc12.jpg 1276w, /rising-stars-project/assets/order-laptop-31592b04.jpg 524w, /rising-stars-project/assets/order-laptop@2x-a7364c88.jpg 1048w" 
+            sizes="(min-width: 1280px) 524px, (min-width: 768px) 638px,"
+            src="../img/order-img/order-tablet.jpg"
+            alt="product sample"
+            width="638" height="521"/>
+        </div>
+    </div>
+</section>
       <!-- Testimonials -->
       <section class="container testimonials-container" id="testimonials">
   <h2 class="testimonials-header">Testimonials</h2>
