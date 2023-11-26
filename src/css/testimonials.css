@@ -16,7 +16,7 @@
   font-weight: 500;
   line-height: 1.38; /* 137.5% */
   letter-spacing: -0.03em;
-  padding-bottom: 64px;
+  margin-bottom: 64px;
   text-align: left;
 }
 
@@ -33,7 +33,7 @@
   font-weight: 600;
   line-height: 1.5; /* 150% */
   margin-bottom: 8px;
-  margin-top: 54px;
+  padding-top: 54px;
 }
 .response {
   color: rgba(252, 249, 249, 0.4);
@@ -58,7 +58,7 @@
 
 @media screen and (min-width: 375px) {
   .container {
-    width: 375px;
+    max-width: 375px;
   }
   .response {
     width: 290px;
@@ -67,7 +67,9 @@
 /* ==========TABLET============== */
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
   .item-t {
     display: flex;
@@ -99,7 +101,9 @@
 
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
+    max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
   .item-d {
     display: flex;
