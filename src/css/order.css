@@ -34,10 +34,10 @@
 .order-form-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-    width: 375px;
-    justify-content: center;
-    align-items: center;
+    gap: 20px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
 
 }
 
@@ -129,11 +129,13 @@ border: 1px solid var(--yellow, #ECD979);
     padding-bottom: 50px;
 }
 .order-image {
+    border-radius: 4px;
     display: block;
     width: 638px;
     height: 521px;
     margin-top: 100px;
-    margin-left: 66px;
+    padding-left: 66px;
+    padding-bottom: 79px;
 }
 .background-wrapper {
     height: 776px;
@@ -148,7 +150,6 @@ border: 1px solid var(--yellow, #ECD979);
     margin-bottom: 40px;
 }
 .order-form-wrapper {
-gap: 20px;
 width: 508px;
 }
 
@@ -205,6 +206,9 @@ padding: 14px 39px;
     height: 521px;
     margin-top: 0;
     margin-left: -50px;
+    object-fit: cover;
+    padding-left: 0;
+    padding-bottom: 119px;
 }
 .background-wrapper {
     background-image: url(../img/order-img/image-laptop.jpg);
