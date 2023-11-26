@@ -1,0 +1,11 @@
+/* .mob-menu.is-open {
+  transform: translateX(0%);
+} */
+.mob-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999999999;
+  width: 274px;
+  height: 812px;
+}
