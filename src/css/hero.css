@@ -74,7 +74,16 @@
   .ukrainian-style-container {
     padding-top: 106px;
     padding-bottom: 50px;
+<<<<<<< Updated upstream
     position: relative;
+=======
+    display: flex;
+    gap: 7px;
+  }
+  .ukrainian-style {
+    width: 549px;
+    margin-top: 26px;
+>>>>>>> Stashed changes
   }
   .ukrainian-style-title {
     width: 549px;
@@ -100,7 +109,13 @@
       lightgray -59.284px -5.913px / 131.835% 126.432% no-repeat;
   }
   .ukrainian-embroidery {
+<<<<<<< Updated upstream
     display: block;
+=======
+    width: 157px;
+    display: block;
+  
+>>>>>>> Stashed changes
   }
   .ukrainian-embroidery-box {
     width: 115px;
