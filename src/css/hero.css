@@ -1,0 +1,172 @@
+.container {
+  width: 375px;
+}
+.hero {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.ukrainian-embroidery {
+  display: none;
+}
+.ukrainian-style-title {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.22;
+  letter-spacing: -0.03em;
+  margin-bottom: 20px;
+}
+.ukr-title {
+  color: var(--white, #ecd979);
+  font-weight: 400;
+}
+.ukrainian-style-button {
+  display: inline-flex;
+  height: 49px;
+  padding: 14px 36px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  margin-bottom: 40px;
+  margin-left: 70px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  color: var(--white, #fcf9f9);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+}
+.ukrainian-style-button:hover {
+  border-radius: 15px;
+  border: 1px solid var(--yellow, #ecd979);
+}
+.icon-arrow {
+  fill: var(--yellow, #ecd979);
+}
+.ukrainian-style-img-girl {
+  border-radius: 4px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  object-fit: cover;
+}
+.oval {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .hero {
+    padding-top: 106px;
+    padding-bottom: 50px;
+    position: relative;
+  }
+  .ukrainian-style-title {
+    width: 549px;
+    font-size: 54px;
+    line-height: 1.18;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+  }
+  .ukrainian-style-button {
+    padding: 14px 39px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    margin-left: 141px;
+    font-size: 16px;
+  }
+  .ukrainian-style-img-girl {
+    width: 413px;
+    height: 575px;
+    object-fit: contain;
+    background: url(<path-to-image>),
+      lightgray -59.284px -5.913px / 131.835% 126.432% no-repeat;
+  }
+  .ukrainian-embroidery {
+    display: block;
+  }
+  .ukrainian-embroidery-box {
+    width: 115px;
+    position: absolute;
+    top: 80px;
+    right: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+  .icon-star {
+    fill: var(--yellow, #ecd979);
+  }
+  .ukrainian-embroidery-text {
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+  }
+  .oval {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    bottom: -60px;
+    right: 32px;
+  }
+  .ukrainian-style-img-vyshyvanka {
+    height: 100%;
+    max-width: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 75px;
+  }
+  .ukrainian-style {
+    display: flex;
+    gap: 40px;
+  }
+  .ukrainian-style-box {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .ukrainian-style-img-girl {
+    width: 392px;
+    height: 545px;
+    object-fit: cover;
+  }
+  .ukrainian-style-title {
+    width: 518px;
+    margin: 0 0;
+  }
+  .ukrainian-style-button {
+    margin: 0 0;
+  }
+  .ukrainian-embroidery-box {
+    top: 114px;
+    right: 100px;
+  }
+  .oval {
+    bottom: -36px;
+    right: 100px;
+  }
+  .ukrainian-style-img-vyshyvanka {
+    max-width: 100%;
+  }
+}
