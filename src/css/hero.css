@@ -2,7 +2,7 @@
   .container {
     width: 375px;
   }
-  .ukrainian-style-container {
+  .hero {
     padding-top: 60px;
     padding-bottom: 40px;
   }
@@ -62,7 +62,7 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .ukrainian-style-container {
+  .hero {
     padding-top: 106px;
     padding-bottom: 50px;
     position: relative;
@@ -114,11 +114,8 @@
   .oval {
     overflow: hidden;
     position: absolute;
-    bottom: 50px;
+    bottom: -60px;
     right: 32px;
-    width: 139px;
-    height: 98px;
-    border-radius: 50% 50% 0 0 / 100% 100% 0 0;
   }
   .ukrainian-style-img-vyshyvanka {
     height: 100%;
@@ -131,7 +128,7 @@
     padding-left: 100px;
     padding-right: 100px;
   }
-  .ukrainian-style-container {
+  .hero {
     padding-top: 100px;
     padding-bottom: 75px;
   }
@@ -164,7 +161,7 @@
     right: 100px;
   }
   .oval {
-    bottom: 75px;
+    bottom: -36px;
     right: 100px;
   }
   .ukrainian-style-img-vyshyvanka {
