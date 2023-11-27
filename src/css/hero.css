@@ -1,8 +1,8 @@
 .container {
-  width: 375px;
+  max-width: 375px;
 }
 .hero {
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 40px;
 }
 .ukrainian-embroidery {
@@ -17,13 +17,11 @@
 }
 .ukr-title {
   color: var(--white, #ecd979);
-  font-weight: 400;
 }
 .ukrainian-style-button {
   display: inline-flex;
   height: 49px;
   padding: 14px 36px;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -34,7 +32,6 @@
   margin-bottom: 40px;
   margin-left: 70px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   color: var(--white, #fcf9f9);
   font-size: 14px;
   font-weight: 600;
@@ -59,12 +56,12 @@
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
   .hero {
-    padding-top: 106px;
+    padding-top: 53px;
     padding-bottom: 50px;
     position: relative;
   }
@@ -126,12 +123,11 @@
 }
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
+    max-width: 1280px;
     padding-left: 100px;
     padding-right: 100px;
   }
   .hero {
-    padding-top: 100px;
     padding-bottom: 75px;
   }
   .ukrainian-style {
@@ -153,10 +149,10 @@
   }
   .ukrainian-style-title {
     width: 518px;
-    margin: 0 0;
+    margin: 0;
   }
   .ukrainian-style-button {
-    margin: 0 0;
+    margin: 0;
   }
   .ukrainian-embroidery-box {
     top: 114px;
