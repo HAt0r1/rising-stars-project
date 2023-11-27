@@ -46,6 +46,11 @@
 .icon-arrow {
   fill: var(--yellow, #ecd979);
 }
+
+.ukrainian-style-button:hover .icon-arrow,
+.ukrainian-style-button:focus .icon-arrow {
+  transform: rotate(-30deg);
+}
 .ukrainian-style-img-girl {
   border-radius: 4px;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
