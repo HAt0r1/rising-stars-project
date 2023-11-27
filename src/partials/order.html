@@ -1,55 +1,67 @@
-<section class="order" id="order">
-    <div class="background-wrapper"></div>
-    <div class="container order-section-wrapper">
-        <div class="all-order">
-            <h2 class="order-title"><span class="text-order">Your order</span> is our priority: Personalized approach and quality of service</h2>
-        <form class="order-form">
-            <div class="order-form-wrapper">
-                <label class="order-form-label" for="user-name">
-                    <input 
-                    class="order-field" 
-                    type="text"
-                    placeholder="Enter your full name"
-                    name="user-name"
-                    id="user-name"
-                    required
-                    pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐйЙʼ]+">
-                </label>
-                <label class="order-form-label" for="user-email">
-                    <input 
-                    class="order-field" 
-                    type="email"
-                    placeholder="Enter your email"
-                    name="user-email"
-                    id="user-email"
-                    required
-                    pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})">
-                </label>
-                <label class="order-form-label" for="user-comments">
-                    <textarea class="comments-field" name="user-comments" id="user-comments"
-                    placeholder="Comments" ></textarea>
-                </label>
-            </div>
-            <button class="order-button" type="submit">
-                send 
-                <svg class="button-arrow" width="26" height="16">
-                    <use href="./img/sprite.svg#icon-arrow"></use>
-                </svg>
-            </button>
-        </form>
+<section class="order" id="customer-order">
+  <div class="background-wrapper"></div>
+  <div class="container order-section-wrapper">
+    <div class="all-order">
+      <h2 class="order-title">
+        <span class="text-order">Your order</span> is our priority: Personalized
+        approach and quality of service
+      </h2>
+      <form class="order-form">
+        <div class="order-form-wrapper">
+          <label class="order-form-label" for="user-name">
+            <input
+              class="order-field"
+              type="text"
+              placeholder="Enter your full name"
+              name="user-name"
+              id="user-name"
+              required
+              pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐйЙʼ]+"
+            />
+          </label>
+          <label class="order-form-label" for="user-email">
+            <input
+              class="order-field"
+              type="email"
+              placeholder="Enter your email"
+              name="user-email"
+              id="user-email"
+              required
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            />
+          </label>
+          <label class="order-form-label" for="user-comments">
+            <textarea
+              class="comments-field"
+              name="user-comments"
+              id="user-comments"
+              placeholder="Comments"
+            ></textarea>
+          </label>
         </div>
-        <div >
-            <img class="order-image"
-            srcset="
-            ./img/order-img/order-tablet.jpg 638w,
-            ./img/order-img/order-tablet@2x.jpg 1276w,
-            ./img/order-img/order-laptop.jpg 524w,
-            ./img/order-img/order-laptop@2x.jpg 1048w,
-            " 
-            sizes="(min-width: 1280px) 524px, (min-width: 768px) 638px,"
-            src="../img/order-img/order-tablet.jpg"
-            alt="product sample"
-            width="638" height="521"/>
-        </div>
+        <button class="order-button" type="submit">
+          send
+          <svg class="button-arrow" width="26" height="16">
+            <use href="./img/sprite.svg#icon-arrow"></use>
+          </svg>
+        </button>
+      </form>
     </div>
+    <div>
+      <img
+        class="order-image"
+        srcset="
+          ./img/order-img/order-tablet.jpg     638w,
+          ./img/order-img/order-tablet@2x.jpg 1276w,
+          ./img/order-img/order-laptop.jpg     524w,
+          ./img/order-img/order-laptop@2x.jpg 1048w
+        "
+        sizes="(min-width: 1280px) 524px, (min-width: 768px) 638px,"
+        src="../img/order-img/order-tablet.jpg"
+        alt="product sample"
+        width="638"
+        height="521"
+      />
+    </div>
+  </div>
 </section>
