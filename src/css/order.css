@@ -127,6 +127,10 @@ border: 1px solid var(--yellow, #ECD979);
 .order {
     padding-top: 50px;
     padding-bottom: 50px;
+    background-image: url(../img/order-img/elements-tablet.png);
+    background-repeat: no-repeat;
+    background-position: left 0px bottom 50px;
+    
 }
 .order-image {
     border-radius: 4px;
@@ -176,6 +180,11 @@ padding: 14px 39px;
             .background-wrapper  {
             background-image: url(../img/order-img/image-tablet@2x.jpg);
             }
+            .order {
+         background-image: url(../img/order-img/elements-tablet@2x.png);
+         background-size: 484px 545px;
+    
+}
         }
          /* ==========ORDER TABLET STYLES======== */
 
@@ -190,7 +199,12 @@ padding: 14px 39px;
 .order {
     padding-top: 75px;
     padding-bottom: 75px;
+    background-image: url(../img/order-img/elements-tablet.png);
+    background-repeat: no-repeat;
+    background-position: left -35px bottom 75px;
+    
 }
+
 .all-order{
     display: flex;
     flex-direction: column;
@@ -222,6 +236,11 @@ padding: 14px 39px;
             .background-wrapper  {
             background-image: url(../img/order-img/image-laptop@2x.jpg);
             }
+            .order {
+         background-image: url(../img/order-img/elements-tablet@2x.png);
+         background-size: 484px 545px;
+    
         }
+    }
 
           /* ==========ORDER DESKTOP STYLES======== */
