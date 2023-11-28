@@ -12,6 +12,46 @@
             <use href="./img/sprite.svg#icon-arrow"></use>
           </svg>
         </a>
+        <div class="ukrainian-embroidery">
+          <div class="ukrainian-embroidery-box">
+            <svg class="icon-star" width="52" height="51">
+              <use href="./img/sprite.svg#icon-star"></use>
+            </svg>
+            <p class="ukrainian-embroidery-text">
+              all embroidery is made by hand
+            </p>
+          </div>
+        </div>
+        <div class="oval">
+          <picture>
+            <!-- Desktop screen -->
+            <source
+              media="(min-width: 1280px)"
+              srcset="
+                ./img/hero-img/vyshyvanka-laptop.png    1x,
+                ./img/hero-img/vyshyvanka-laptop@2x.png 2x
+              "
+              type="image/jpg"
+            />
+            <!-- Tablet screen -->
+            <source
+              media="(min-width: 768px)"
+              srcset="
+                ./img/hero-img/vyshyvanka-tablet.png    1x,
+                ./img/hero-img/vyshyvanka-tablet@2x.png 2x
+              "
+              type="image/jpg"
+            />
+            <img
+              class="ukrainian-style-img-vyshyvanka"
+              src="./img/hero-img/vyshyvanka-laptop.png"
+              alt="vyshyvanka"
+              width="157"
+              height="191"
+              loading="lazy"
+            />
+          </picture>
+        </div>
       </div>
       <picture>
         <!-- Desktop screen -->
@@ -47,45 +87,6 @@
           alt="vyshyvanka"
           width="335"
           height="545"
-          loading="lazy"
-        />
-      </picture>
-    </div>
-
-    <div class="ukrainian-embroidery">
-      <div class="ukrainian-embroidery-box">
-        <svg class="icon-star" width="52" height="51">
-          <use href="./img/sprite.svg#icon-star"></use>
-        </svg>
-        <p class="ukrainian-embroidery-text">all embroidery is made by hand</p>
-      </div>
-    </div>
-    <div class="oval">
-      <picture>
-        <!-- Desktop screen -->
-        <source
-          media="(min-width: 1280px)"
-          srcset="
-            ./img/hero-img/vyshyvanka-laptop.png    1x,
-            ./img/hero-img/vyshyvanka-laptop@2x.png 2x
-          "
-          type="image/jpg"
-        />
-        <!-- Tablet screen -->
-        <source
-          media="(min-width: 768px)"
-          srcset="
-            ./img/hero-img/vyshyvanka-tablet.png    1x,
-            ./img/hero-img/vyshyvanka-tablet@2x.png 2x
-          "
-          type="image/jpg"
-        />
-        <img
-          class="ukrainian-style-img-vyshyvanka"
-          src="./img/hero-img/vyshyvanka-laptop.png"
-          alt="vyshyvanka"
-          width="157"
-          height="191"
           loading="lazy"
         />
       </picture>
