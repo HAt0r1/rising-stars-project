@@ -229,3 +229,24 @@
 }
 
 /* ==========ORDER DESKTOP STYLES======== */
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+  .background-wrapper {
+    background-image: url(../img/order-img/image-desktop.jpg);
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+  screen and (min-resolution: 2dppx) and (min-width: 1440px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+  .background-wrapper {
+    background-image: url(../img/order-img/image-desktop@2x.jpg);
+  }
+  .order {
+    background-image: url(../img/order-img/elements-tablet@2x.png);
+    background-size: 484px 545px;
+  }
+}

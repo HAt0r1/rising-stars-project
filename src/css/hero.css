@@ -8,6 +8,7 @@
 .ukrainian-embroidery {
   display: none;
 }
+
 .ukrainian-style-title {
   font-size: 44px;
   font-weight: 400;
@@ -68,6 +69,8 @@
   .hero {
     padding-top: 53px;
     padding-bottom: 50px;
+  }
+  .ukrainian-style-container {
     position: relative;
   }
   .ukrainian-style-title {
@@ -118,7 +121,7 @@
     display: block;
     overflow: hidden;
     position: absolute;
-    bottom: -60px;
+    bottom: -110px;
     right: 32px;
   }
   .ukrainian-style-img-vyshyvanka {
@@ -160,14 +163,26 @@
     margin: 0;
   }
   .ukrainian-embroidery-box {
-    top: 114px;
+    top: 0;
     right: 100px;
   }
   .oval {
-    bottom: -36px;
+    bottom: -110px;
     right: 100px;
   }
   .ukrainian-style-img-vyshyvanka {
     max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+
+  .ukrainian-style-title {
+    max-width: 632px;
+    font-size: 64px;
+    line-height: 1.16;
   }
 }

@@ -115,3 +115,9 @@
     flex-basis: calc((100% - 40px) / 3);
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}

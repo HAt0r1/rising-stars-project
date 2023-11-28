@@ -68,10 +68,6 @@
     max-width: 375px;
   }
 
-  .header-box {
-    padding-bottom: 53px;
-  }
-
   .header-nav,
   .address-header {
     display: none;
@@ -85,7 +81,9 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-
+  .header-box {
+    padding-bottom: 53px;
+  }
   .mobile-open-button {
     margin-left: 20px;
   }
@@ -161,5 +159,14 @@
 
   .mobile-open-button {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+  .header-box {
+    padding-bottom: 50px;
   }
 }
