@@ -71,7 +71,7 @@
     position: relative;
   }
   .ukrainian-style-title {
-    width: 549px;
+    max-width: 549px;
     font-size: 54px;
     line-height: 1.18;
     letter-spacing: -0.03em;
@@ -94,7 +94,7 @@
     display: block;
   }
   .ukrainian-embroidery-box {
-    width: 115px;
+    max-width: 115px;
     position: absolute;
     top: 80px;
     right: 32px;
