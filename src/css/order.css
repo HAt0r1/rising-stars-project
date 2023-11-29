@@ -135,6 +135,7 @@
     height: 776px;
     background-image: url(../img/order-img/image-tablet.jpg);
     margin-bottom: 100px;
+    background-size: contain;
   }
   .order-title {
     max-width: 542px;
